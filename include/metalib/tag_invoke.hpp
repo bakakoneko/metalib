@@ -3,6 +3,8 @@
 
 #include "config.hpp"
 
+#include <utility>
+
 namespace METALIB_NAMESPACE {
     namespace detail {
         struct tag_invoke_fn {
