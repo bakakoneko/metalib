@@ -13,7 +13,7 @@ namespace METALIB_NAMESPACE {
         /// \private
         struct tag_invoke_fn {
             template <typename CPO, typename... Args>
-            constexpr auto operator()(CPO&& cpo, Args&&... args) const {
+            constexpr decltype(auto) operator()(CPO&& cpo, Args&&... args) const {
                 return tag_invoke(std::forward<CPO>(cpo), std::forward<Args>(args)...);
             }
         };
