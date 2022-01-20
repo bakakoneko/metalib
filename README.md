@@ -6,6 +6,7 @@ Metalib is a collection of metaprogramming utilities for C++20.
 * function_traits - get information about a function or function object, such as its arguments, return type,
 and class type (for member functions)
 * tag_invoke - a standard invoke function for CPOs
+* overload - an overload resolver for functions, member functions, and function objects
 
 ## TODO
 * [ ] Generated version header
